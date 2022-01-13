@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# This script is displaying "Best School" 10 times but says "Hi" on the 9th iteration
 letter="Best School"
 x=1
 while [ $x -le 10 ];
