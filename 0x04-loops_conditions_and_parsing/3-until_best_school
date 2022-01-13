@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+letter="Best School"
+x=1
+until [ $x -gt 10 ]
+do
+  echo "$letter"
+  x=$(( x + 1 ))
+done
