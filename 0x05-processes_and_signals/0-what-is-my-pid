@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Expands to the process ID of the current Bash process (new to bash 4).
+# In a () subshell, it expands to the process ID of the subshell [1]
+echo $BASHPID
